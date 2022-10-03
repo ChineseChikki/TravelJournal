@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Inter", sans-serif;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 18.75rem;
+  justify-content: left;
+  gap: 2rem;
+  margin-bottom: 2.4rem;
+  max-width: 76.25rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-container img {
+  border-radius: 0.7rem;
+  width: 12.5rem;
+  height: 18.75rem;
+  object-fit: cover;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.info {
+  padding: 1.5rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.date {
+  margin-bottom: 0.8rem;
+}
+
+.card-container .small-icon {
+  width: 10px;
+  height: auto;
+  margin-right: 0.4rem;
+}
+
+.location h6 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-right: 0.8rem;
+}
+
+.location a {
+  color: gray;
+}
+
+/* ALL MEDIA QUERY */
+@media only screen and (min-width: 277px) and (max-width: 399px) {
+  .main--container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-container {
+    gap: 1.2rem;
+    padding: 0 1.25rem;
+    flex-direction: column;
+  }
+
+  .card-container .main-img {
+    border-radius: 0.5rem;
+    width: 13.75rem;
+    height: 8.75rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .description {
+    font-size: 0.7rem;
+  }
+
+  .location a {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .card-container {
+    padding: 0 2.5rem;
+    gap: 1.5rem;
+  }
+
+  .card-container .main-img {
+    width: 7.5rem;
+    height: 11.25rem;
+  }
+
+  .title {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .description {
+    font-size: 0.62rem;
+  }
+
+  .location a {
+    font-size: 0.62rem;
+  }
+
+  .location h6 {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (min-width: 822px) {
+  .location h6 {
+    font-size: 0.7rem;
+  }
+  .date {
+    font-size: 0.62rem;
+  }
+  .location a {
+    font-size: 0.87rem;
+  }
+  .description {
+    font-size: 0.8rem;
+  }
+  .card-container {
+    padding: 0 12.5rem;
+  }
+  .card-container .main-img {
+    width: 10rem;
+    height: 15rem;
+  }
+  .title {
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .location h6 {
+    font-size: 0.87rem;
+  }
+  .date {
+    font-size: 0.7rem;
+  }
+  .location a {
+    font-size: 0.87rem;
+  }
+  .description {
+    font-size: 0.9rem;
+  }
+  .card-container {
+    padding: 0 18.7rem;
+  }
+  .card-container .main-img {
+    width: 12.5rem;
+    height: 17.5rem;
+  }
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+  }
+}
