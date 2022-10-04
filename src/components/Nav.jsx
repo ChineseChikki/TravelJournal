@@ -7,7 +7,7 @@ const Nav = () => {
     <div>
       <nav>
         <img src={IWeb} alt="" />
-        <h6>my travel journal</h6>
+        <h6>Chinese-Chikki Travel Journal</h6>
       </nav>
     </div>
   );

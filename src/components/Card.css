@@ -28,21 +28,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 0.6rem;
-}
-
-.info {
-  padding: 1.5rem;
 }
 
 .title {
   font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 2rem;
-}
-
-.date {
-  margin-bottom: 0.8rem;
+  font-weight: bold;
 }
 
 .card-container .small-icon {

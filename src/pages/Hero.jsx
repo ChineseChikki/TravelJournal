@@ -4,7 +4,6 @@ import MainContent from "../components/MainContent";
 const Hero = () => {
   return (
     <div>
-      
       <MainContent />
     </div>
   );
